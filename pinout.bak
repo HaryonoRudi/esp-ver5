@@ -1,0 +1,952 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ESP8266
+LIBS:REGULATOR
+LIBS:esp-ver5-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X15 P18
+U 1 1 59AF132D
+P 1920 2420
+F 0 "P18" H 1920 3220 50  0000 C CNN
+F 1 "P" V 2020 2420 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 1920 2420 50  0001 C CNN
+F 3 "" H 1920 2420 50  0000 C CNN
+	1    1920 2420
+	1    0    0    -1  
+$EndComp
+Text GLabel 1720 1720 0    51   Input ~ 0
+V5
+Text GLabel 1720 3120 0    51   Input ~ 0
+GND
+NoConn ~ 1720 1820
+NoConn ~ 1720 1920
+NoConn ~ 1720 2020
+NoConn ~ 1720 2120
+NoConn ~ 1720 2220
+NoConn ~ 1720 2320
+NoConn ~ 1720 2420
+NoConn ~ 1720 2520
+NoConn ~ 1720 2620
+NoConn ~ 1720 2720
+NoConn ~ 1720 2820
+NoConn ~ 1720 2920
+NoConn ~ 1720 3020
+$Comp
+L CONN_01X15 P20
+U 1 1 59AF186C
+P 2450 2420
+F 0 "P20" H 2450 3220 50  0000 C CNN
+F 1 "P" V 2550 2420 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 2450 2420 50  0001 C CNN
+F 3 "" H 2450 2420 50  0000 C CNN
+	1    2450 2420
+	1    0    0    -1  
+$EndComp
+Text GLabel 2250 1720 0    51   Input ~ 0
+V5
+Text GLabel 2250 3120 0    51   Input ~ 0
+GND
+NoConn ~ 2250 1820
+NoConn ~ 2250 1920
+NoConn ~ 2250 2020
+NoConn ~ 2250 2120
+NoConn ~ 2250 2220
+NoConn ~ 2250 2320
+NoConn ~ 2250 2420
+NoConn ~ 2250 2520
+NoConn ~ 2250 2620
+NoConn ~ 2250 2720
+NoConn ~ 2250 2820
+NoConn ~ 2250 2920
+NoConn ~ 2250 3020
+$Comp
+L CONN_01X15 P22
+U 1 1 59AF18F3
+P 2970 2420
+F 0 "P22" H 2970 3220 50  0000 C CNN
+F 1 "P" V 3070 2420 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 2970 2420 50  0001 C CNN
+F 3 "" H 2970 2420 50  0000 C CNN
+	1    2970 2420
+	1    0    0    -1  
+$EndComp
+Text GLabel 2770 1720 0    51   Input ~ 0
+V5
+Text GLabel 2770 3120 0    51   Input ~ 0
+GND
+NoConn ~ 2770 1820
+NoConn ~ 2770 1920
+NoConn ~ 2770 2020
+NoConn ~ 2770 2120
+NoConn ~ 2770 2220
+NoConn ~ 2770 2320
+NoConn ~ 2770 2420
+NoConn ~ 2770 2520
+NoConn ~ 2770 2620
+NoConn ~ 2770 2720
+NoConn ~ 2770 2820
+NoConn ~ 2770 2920
+NoConn ~ 2770 3020
+$Comp
+L CONN_01X18 P17
+U 1 1 59AF1F1C
+P 2090 4520
+F 0 "P17" H 2090 5470 50  0000 C CNN
+F 1 "P" V 2190 4520 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 2090 4520 50  0001 C CNN
+F 3 "" H 2090 4520 50  0000 C CNN
+	1    2090 4520
+	1    0    0    -1  
+$EndComp
+Text GLabel 1890 3670 0    51   Input ~ 0
+V5
+Text GLabel 1890 5370 0    51   Input ~ 0
+GND
+NoConn ~ 1890 5270
+NoConn ~ 1890 5170
+NoConn ~ 1890 5070
+NoConn ~ 1890 4970
+NoConn ~ 1890 4870
+NoConn ~ 1890 4770
+NoConn ~ 1890 4670
+NoConn ~ 1890 4570
+NoConn ~ 1890 4470
+NoConn ~ 1890 4370
+NoConn ~ 1890 4270
+NoConn ~ 1890 3770
+NoConn ~ 1890 3870
+NoConn ~ 1890 3970
+NoConn ~ 1890 4070
+NoConn ~ 1890 4170
+$Comp
+L CONN_01X18 P21
+U 1 1 59AF21BC
+P 2680 4520
+F 0 "P21" H 2680 5470 50  0000 C CNN
+F 1 "P" V 2780 4520 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 2680 4520 50  0001 C CNN
+F 3 "" H 2680 4520 50  0000 C CNN
+	1    2680 4520
+	1    0    0    -1  
+$EndComp
+Text GLabel 2480 3670 0    51   Input ~ 0
+V5
+Text GLabel 2480 5370 0    51   Input ~ 0
+GND
+NoConn ~ 2480 5270
+NoConn ~ 2480 5170
+NoConn ~ 2480 5070
+NoConn ~ 2480 4970
+NoConn ~ 2480 4870
+NoConn ~ 2480 4770
+NoConn ~ 2480 4670
+NoConn ~ 2480 4570
+NoConn ~ 2480 4470
+NoConn ~ 2480 4370
+NoConn ~ 2480 4270
+NoConn ~ 2480 3770
+NoConn ~ 2480 3870
+NoConn ~ 2480 3970
+NoConn ~ 2480 4070
+NoConn ~ 2480 4170
+$Comp
+L CONN_01X18 P24
+U 1 1 59AF2216
+P 3260 4520
+F 0 "P24" H 3260 5470 50  0000 C CNN
+F 1 "P" V 3360 4520 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 3260 4520 50  0001 C CNN
+F 3 "" H 3260 4520 50  0000 C CNN
+	1    3260 4520
+	1    0    0    -1  
+$EndComp
+Text GLabel 3060 3670 0    51   Input ~ 0
+V5
+Text GLabel 3060 5370 0    51   Input ~ 0
+GND
+NoConn ~ 3060 5270
+NoConn ~ 3060 5170
+NoConn ~ 3060 5070
+NoConn ~ 3060 4970
+NoConn ~ 3060 4870
+NoConn ~ 3060 4770
+NoConn ~ 3060 4670
+NoConn ~ 3060 4570
+NoConn ~ 3060 4470
+NoConn ~ 3060 4370
+NoConn ~ 3060 4270
+NoConn ~ 3060 3770
+NoConn ~ 3060 3870
+NoConn ~ 3060 3970
+NoConn ~ 3060 4070
+NoConn ~ 3060 4170
+$Comp
+L CONN_01X18 P28
+U 1 1 59AF222E
+P 3850 4520
+F 0 "P28" H 3850 5470 50  0000 C CNN
+F 1 "P" V 3950 4520 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 3850 4520 50  0001 C CNN
+F 3 "" H 3850 4520 50  0000 C CNN
+	1    3850 4520
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 3670 0    51   Input ~ 0
+V5
+Text GLabel 3650 5370 0    51   Input ~ 0
+GND
+NoConn ~ 3650 5270
+NoConn ~ 3650 5170
+NoConn ~ 3650 5070
+NoConn ~ 3650 4970
+NoConn ~ 3650 4870
+NoConn ~ 3650 4770
+NoConn ~ 3650 4670
+NoConn ~ 3650 4570
+NoConn ~ 3650 4470
+NoConn ~ 3650 4370
+NoConn ~ 3650 4270
+NoConn ~ 3650 3770
+NoConn ~ 3650 3870
+NoConn ~ 3650 3970
+NoConn ~ 3650 4070
+NoConn ~ 3650 4170
+$Comp
+L CONN_01X18 P19
+U 1 1 59AF22C6
+P 2090 6600
+F 0 "P19" H 2090 7550 50  0000 C CNN
+F 1 "P" V 2190 6600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 2090 6600 50  0001 C CNN
+F 3 "" H 2090 6600 50  0000 C CNN
+	1    2090 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 1890 5750 0    51   Input ~ 0
+V5
+Text GLabel 1890 7450 0    51   Input ~ 0
+GND
+NoConn ~ 1890 7350
+NoConn ~ 1890 7250
+NoConn ~ 1890 7150
+NoConn ~ 1890 7050
+NoConn ~ 1890 6950
+NoConn ~ 1890 6850
+NoConn ~ 1890 6750
+NoConn ~ 1890 6650
+NoConn ~ 1890 6550
+NoConn ~ 1890 6450
+NoConn ~ 1890 6350
+NoConn ~ 1890 5850
+NoConn ~ 1890 5950
+NoConn ~ 1890 6050
+NoConn ~ 1890 6150
+NoConn ~ 1890 6250
+$Comp
+L CONN_01X18 P23
+U 1 1 59AF22DE
+P 2680 6600
+F 0 "P23" H 2680 7550 50  0000 C CNN
+F 1 "P" V 2780 6600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 2680 6600 50  0001 C CNN
+F 3 "" H 2680 6600 50  0000 C CNN
+	1    2680 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 2480 5750 0    51   Input ~ 0
+V5
+Text GLabel 2480 7450 0    51   Input ~ 0
+GND
+NoConn ~ 2480 7350
+NoConn ~ 2480 7250
+NoConn ~ 2480 7150
+NoConn ~ 2480 7050
+NoConn ~ 2480 6950
+NoConn ~ 2480 6850
+NoConn ~ 2480 6750
+NoConn ~ 2480 6650
+NoConn ~ 2480 6550
+NoConn ~ 2480 6450
+NoConn ~ 2480 6350
+NoConn ~ 2480 5850
+NoConn ~ 2480 5950
+NoConn ~ 2480 6050
+NoConn ~ 2480 6150
+NoConn ~ 2480 6250
+$Comp
+L CONN_01X18 P25
+U 1 1 59AF22F6
+P 3260 6600
+F 0 "P25" H 3260 7550 50  0000 C CNN
+F 1 "P" V 3360 6600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 3260 6600 50  0001 C CNN
+F 3 "" H 3260 6600 50  0000 C CNN
+	1    3260 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3060 5750 0    51   Input ~ 0
+V5
+Text GLabel 3060 7450 0    51   Input ~ 0
+GND
+NoConn ~ 3060 7350
+NoConn ~ 3060 7250
+NoConn ~ 3060 7150
+NoConn ~ 3060 7050
+NoConn ~ 3060 6950
+NoConn ~ 3060 6850
+NoConn ~ 3060 6750
+NoConn ~ 3060 6650
+NoConn ~ 3060 6550
+NoConn ~ 3060 6450
+NoConn ~ 3060 6350
+NoConn ~ 3060 5850
+NoConn ~ 3060 5950
+NoConn ~ 3060 6050
+NoConn ~ 3060 6150
+NoConn ~ 3060 6250
+$Comp
+L CONN_01X18 P29
+U 1 1 59AF230E
+P 3850 6600
+F 0 "P29" H 3850 7550 50  0000 C CNN
+F 1 "P" V 3950 6600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 3850 6600 50  0001 C CNN
+F 3 "" H 3850 6600 50  0000 C CNN
+	1    3850 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 5750 0    51   Input ~ 0
+V5
+Text GLabel 3650 7450 0    51   Input ~ 0
+GND
+NoConn ~ 3650 7350
+NoConn ~ 3650 7250
+NoConn ~ 3650 7150
+NoConn ~ 3650 7050
+NoConn ~ 3650 6950
+NoConn ~ 3650 6850
+NoConn ~ 3650 6750
+NoConn ~ 3650 6650
+NoConn ~ 3650 6550
+NoConn ~ 3650 6450
+NoConn ~ 3650 6350
+NoConn ~ 3650 5850
+NoConn ~ 3650 5950
+NoConn ~ 3650 6050
+NoConn ~ 3650 6150
+NoConn ~ 3650 6250
+$Comp
+L CONN_01X08 P27
+U 1 1 59AF2333
+P 3850 2890
+F 0 "P27" H 3850 3340 50  0000 C CNN
+F 1 "P" V 3950 2890 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 3850 2890 50  0001 C CNN
+F 3 "" H 3850 2890 50  0000 C CNN
+	1    3850 2890
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 3240 0    51   Input ~ 0
+GND
+NoConn ~ 3650 3140
+NoConn ~ 3650 3040
+NoConn ~ 3650 2940
+NoConn ~ 3650 2840
+NoConn ~ 3650 2740
+NoConn ~ 3650 2640
+NoConn ~ 3650 2540
+$Comp
+L CONN_01X08 P31
+U 1 1 59AF2709
+P 4350 2900
+F 0 "P31" H 4350 3350 50  0000 C CNN
+F 1 "P" V 4450 2900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 4350 2900 50  0001 C CNN
+F 3 "" H 4350 2900 50  0000 C CNN
+	1    4350 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 3250 0    51   Input ~ 0
+GND
+NoConn ~ 4150 3150
+NoConn ~ 4150 3050
+NoConn ~ 4150 2950
+NoConn ~ 4150 2850
+NoConn ~ 4150 2750
+NoConn ~ 4150 2650
+NoConn ~ 4150 2550
+$Comp
+L CONN_01X08 P33
+U 1 1 59AF2752
+P 4870 2890
+F 0 "P33" H 4870 3340 50  0000 C CNN
+F 1 "P" V 4970 2890 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 4870 2890 50  0001 C CNN
+F 3 "" H 4870 2890 50  0000 C CNN
+	1    4870 2890
+	1    0    0    -1  
+$EndComp
+Text GLabel 4670 3240 0    51   Input ~ 0
+GND
+NoConn ~ 4670 3140
+NoConn ~ 4670 3040
+NoConn ~ 4670 2940
+NoConn ~ 4670 2840
+NoConn ~ 4670 2740
+NoConn ~ 4670 2640
+NoConn ~ 4670 2540
+$Comp
+L CONN_01X08 P26
+U 1 1 59AF2829
+P 3850 1730
+F 0 "P26" H 3850 2180 50  0000 C CNN
+F 1 "P" V 3950 1730 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 3850 1730 50  0001 C CNN
+F 3 "" H 3850 1730 50  0000 C CNN
+	1    3850 1730
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 2080 0    51   Input ~ 0
+GND
+NoConn ~ 3650 1980
+NoConn ~ 3650 1880
+NoConn ~ 3650 1780
+NoConn ~ 3650 1680
+NoConn ~ 3650 1580
+NoConn ~ 3650 1480
+NoConn ~ 3650 1380
+$Comp
+L CONN_01X08 P30
+U 1 1 59AF2837
+P 4350 1740
+F 0 "P30" H 4350 2190 50  0000 C CNN
+F 1 "P" V 4450 1740 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 4350 1740 50  0001 C CNN
+F 3 "" H 4350 1740 50  0000 C CNN
+	1    4350 1740
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 2090 0    51   Input ~ 0
+GND
+NoConn ~ 4150 1990
+NoConn ~ 4150 1890
+NoConn ~ 4150 1790
+NoConn ~ 4150 1690
+NoConn ~ 4150 1590
+NoConn ~ 4150 1490
+NoConn ~ 4150 1390
+$Comp
+L CONN_01X08 P32
+U 1 1 59AF2845
+P 4870 1730
+F 0 "P32" H 4870 2180 50  0000 C CNN
+F 1 "P" V 4970 1730 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 4870 1730 50  0001 C CNN
+F 3 "" H 4870 1730 50  0000 C CNN
+	1    4870 1730
+	1    0    0    -1  
+$EndComp
+Text GLabel 4670 2080 0    51   Input ~ 0
+GND
+NoConn ~ 4670 1980
+NoConn ~ 4670 1880
+NoConn ~ 4670 1780
+NoConn ~ 4670 1680
+NoConn ~ 4670 1580
+NoConn ~ 4670 1480
+NoConn ~ 4670 1380
+$Comp
+L CONN_01X15 P35
+U 1 1 59AF417A
+P 6930 2090
+F 0 "P35" H 6930 2890 50  0000 C CNN
+F 1 "P" V 7030 2090 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 6930 2090 50  0001 C CNN
+F 3 "" H 6930 2090 50  0000 C CNN
+	1    6930 2090
+	1    0    0    -1  
+$EndComp
+Text GLabel 6730 1390 0    51   Input ~ 0
+V5.0
+Text GLabel 6730 2790 0    51   Input ~ 0
+GNDD
+NoConn ~ 6730 1490
+NoConn ~ 6730 1590
+NoConn ~ 6730 1690
+NoConn ~ 6730 1790
+NoConn ~ 6730 1890
+NoConn ~ 6730 1990
+NoConn ~ 6730 2090
+NoConn ~ 6730 2190
+NoConn ~ 6730 2290
+NoConn ~ 6730 2390
+NoConn ~ 6730 2490
+NoConn ~ 6730 2590
+NoConn ~ 6730 2690
+$Comp
+L CONN_01X15 P37
+U 1 1 59AF4551
+P 7570 2100
+F 0 "P37" H 7570 2900 50  0000 C CNN
+F 1 "P" V 7670 2100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 7570 2100 50  0001 C CNN
+F 3 "" H 7570 2100 50  0000 C CNN
+	1    7570 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 7370 1400 0    51   Input ~ 0
+V5.0
+Text GLabel 7370 2800 0    51   Input ~ 0
+GNDD
+NoConn ~ 7370 1500
+NoConn ~ 7370 1600
+NoConn ~ 7370 1700
+NoConn ~ 7370 1800
+NoConn ~ 7370 1900
+NoConn ~ 7370 2000
+NoConn ~ 7370 2100
+NoConn ~ 7370 2200
+NoConn ~ 7370 2300
+NoConn ~ 7370 2400
+NoConn ~ 7370 2500
+NoConn ~ 7370 2600
+NoConn ~ 7370 2700
+$Comp
+L CONN_01X15 P39
+U 1 1 59AF45D5
+P 8160 2130
+F 0 "P39" H 8160 2930 50  0000 C CNN
+F 1 "P" V 8260 2130 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 8160 2130 50  0001 C CNN
+F 3 "" H 8160 2130 50  0000 C CNN
+	1    8160 2130
+	1    0    0    -1  
+$EndComp
+Text GLabel 7960 1430 0    51   Input ~ 0
+V5.0
+Text GLabel 7960 2830 0    51   Input ~ 0
+GNDD
+NoConn ~ 7960 1530
+NoConn ~ 7960 1630
+NoConn ~ 7960 1730
+NoConn ~ 7960 1830
+NoConn ~ 7960 1930
+NoConn ~ 7960 2030
+NoConn ~ 7960 2130
+NoConn ~ 7960 2230
+NoConn ~ 7960 2330
+NoConn ~ 7960 2430
+NoConn ~ 7960 2530
+NoConn ~ 7960 2630
+NoConn ~ 7960 2730
+$Comp
+L CONN_01X08 P42
+U 1 1 59AF479B
+P 8850 1440
+F 0 "P42" H 8850 1890 50  0000 C CNN
+F 1 "P" V 8950 1440 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 8850 1440 50  0001 C CNN
+F 3 "" H 8850 1440 50  0000 C CNN
+	1    8850 1440
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8650 1690
+NoConn ~ 8650 1590
+NoConn ~ 8650 1490
+NoConn ~ 8650 1390
+NoConn ~ 8650 1290
+NoConn ~ 8650 1190
+NoConn ~ 8650 1090
+Text GLabel 8650 1790 0    51   Input ~ 0
+GNDD
+$Comp
+L CONN_01X08 P45
+U 1 1 59AF4A1A
+P 9400 1430
+F 0 "P45" H 9400 1880 50  0000 C CNN
+F 1 "P" V 9500 1430 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9400 1430 50  0001 C CNN
+F 3 "" H 9400 1430 50  0000 C CNN
+	1    9400 1430
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9200 1680
+NoConn ~ 9200 1580
+NoConn ~ 9200 1480
+NoConn ~ 9200 1380
+NoConn ~ 9200 1280
+NoConn ~ 9200 1180
+NoConn ~ 9200 1080
+Text GLabel 9200 1780 0    51   Input ~ 0
+GNDD
+$Comp
+L CONN_01X08 P48
+U 1 1 59AF4A79
+P 9980 1420
+F 0 "P48" H 9980 1870 50  0000 C CNN
+F 1 "P" V 10080 1420 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9980 1420 50  0001 C CNN
+F 3 "" H 9980 1420 50  0000 C CNN
+	1    9980 1420
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9780 1670
+NoConn ~ 9780 1570
+NoConn ~ 9780 1470
+NoConn ~ 9780 1370
+NoConn ~ 9780 1270
+NoConn ~ 9780 1170
+NoConn ~ 9780 1070
+Text GLabel 9780 1770 0    51   Input ~ 0
+GNDD
+$Comp
+L CONN_01X08 P41
+U 1 1 59AF4B1E
+P 8840 2450
+F 0 "P41" H 8840 2900 50  0000 C CNN
+F 1 "P" V 8940 2450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 8840 2450 50  0001 C CNN
+F 3 "" H 8840 2450 50  0000 C CNN
+	1    8840 2450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8640 2700
+NoConn ~ 8640 2600
+NoConn ~ 8640 2500
+NoConn ~ 8640 2400
+NoConn ~ 8640 2300
+NoConn ~ 8640 2200
+NoConn ~ 8640 2100
+Text GLabel 8640 2800 0    51   Input ~ 0
+GNDD
+$Comp
+L CONN_01X08 P44
+U 1 1 59AF4B2C
+P 9390 2440
+F 0 "P44" H 9390 2890 50  0000 C CNN
+F 1 "P" V 9490 2440 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9390 2440 50  0001 C CNN
+F 3 "" H 9390 2440 50  0000 C CNN
+	1    9390 2440
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9190 2690
+NoConn ~ 9190 2590
+NoConn ~ 9190 2490
+NoConn ~ 9190 2390
+NoConn ~ 9190 2290
+NoConn ~ 9190 2190
+NoConn ~ 9190 2090
+Text GLabel 9190 2790 0    51   Input ~ 0
+GNDD
+$Comp
+L CONN_01X08 P47
+U 1 1 59AF4B3A
+P 9970 2430
+F 0 "P47" H 9970 2880 50  0000 C CNN
+F 1 "P" V 10070 2430 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9970 2430 50  0001 C CNN
+F 3 "" H 9970 2430 50  0000 C CNN
+	1    9970 2430
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9770 2680
+NoConn ~ 9770 2580
+NoConn ~ 9770 2480
+NoConn ~ 9770 2380
+NoConn ~ 9770 2280
+NoConn ~ 9770 2180
+NoConn ~ 9770 2080
+Text GLabel 9770 2780 0    51   Input ~ 0
+GNDD
+$Comp
+L CONN_01X18 P34
+U 1 1 59AF4C86
+P 6880 4000
+F 0 "P34" H 6880 4950 50  0000 C CNN
+F 1 "P" V 6980 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 6880 4000 50  0001 C CNN
+F 3 "" H 6880 4000 50  0000 C CNN
+	1    6880 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6680 4750
+NoConn ~ 6680 4650
+NoConn ~ 6680 4550
+NoConn ~ 6680 4450
+NoConn ~ 6680 4350
+NoConn ~ 6680 4250
+NoConn ~ 6680 4150
+NoConn ~ 6680 4050
+NoConn ~ 6680 3950
+NoConn ~ 6680 3850
+NoConn ~ 6680 3750
+NoConn ~ 6680 3250
+NoConn ~ 6680 3350
+NoConn ~ 6680 3450
+NoConn ~ 6680 3550
+NoConn ~ 6680 3650
+Text GLabel 6680 4850 0    51   Input ~ 0
+GNDD
+Text GLabel 6680 3150 0    51   Input ~ 0
+V5.0
+$Comp
+L CONN_01X18 P36
+U 1 1 59AF5754
+P 7430 4000
+F 0 "P36" H 7430 4950 50  0000 C CNN
+F 1 "P" V 7530 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 7430 4000 50  0001 C CNN
+F 3 "" H 7430 4000 50  0000 C CNN
+	1    7430 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7230 4750
+NoConn ~ 7230 4650
+NoConn ~ 7230 4550
+NoConn ~ 7230 4450
+NoConn ~ 7230 4350
+NoConn ~ 7230 4250
+NoConn ~ 7230 4150
+NoConn ~ 7230 4050
+NoConn ~ 7230 3950
+NoConn ~ 7230 3850
+NoConn ~ 7230 3750
+NoConn ~ 7230 3250
+NoConn ~ 7230 3350
+NoConn ~ 7230 3450
+NoConn ~ 7230 3550
+NoConn ~ 7230 3650
+Text GLabel 7230 4850 0    51   Input ~ 0
+GNDD
+Text GLabel 7230 3150 0    51   Input ~ 0
+V5.0
+$Comp
+L CONN_01X18 P38
+U 1 1 59AF5914
+P 7990 4000
+F 0 "P38" H 7990 4950 50  0000 C CNN
+F 1 "P" V 8090 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 7990 4000 50  0001 C CNN
+F 3 "" H 7990 4000 50  0000 C CNN
+	1    7990 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7790 4750
+NoConn ~ 7790 4650
+NoConn ~ 7790 4550
+NoConn ~ 7790 4450
+NoConn ~ 7790 4350
+NoConn ~ 7790 4250
+NoConn ~ 7790 4150
+NoConn ~ 7790 4050
+NoConn ~ 7790 3950
+NoConn ~ 7790 3850
+NoConn ~ 7790 3750
+NoConn ~ 7790 3250
+NoConn ~ 7790 3350
+NoConn ~ 7790 3450
+NoConn ~ 7790 3550
+NoConn ~ 7790 3650
+Text GLabel 7790 4850 0    51   Input ~ 0
+GNDD
+Text GLabel 7790 3150 0    51   Input ~ 0
+V5.0
+$Comp
+L CONN_01X18 P40
+U 1 1 59AF592C
+P 8540 4000
+F 0 "P40" H 8540 4950 50  0000 C CNN
+F 1 "P" V 8640 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 8540 4000 50  0001 C CNN
+F 3 "" H 8540 4000 50  0000 C CNN
+	1    8540 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8340 4750
+NoConn ~ 8340 4650
+NoConn ~ 8340 4550
+NoConn ~ 8340 4450
+NoConn ~ 8340 4350
+NoConn ~ 8340 4250
+NoConn ~ 8340 4150
+NoConn ~ 8340 4050
+NoConn ~ 8340 3950
+NoConn ~ 8340 3850
+NoConn ~ 8340 3750
+NoConn ~ 8340 3250
+NoConn ~ 8340 3350
+NoConn ~ 8340 3450
+NoConn ~ 8340 3550
+NoConn ~ 8340 3650
+Text GLabel 8340 4850 0    51   Input ~ 0
+GNDD
+Text GLabel 8340 3150 0    51   Input ~ 0
+V5.0
+$Comp
+L CONN_01X18 P43
+U 1 1 59AF5CDA
+P 9110 4000
+F 0 "P43" H 9110 4950 50  0000 C CNN
+F 1 "P" V 9210 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 9110 4000 50  0001 C CNN
+F 3 "" H 9110 4000 50  0000 C CNN
+	1    9110 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8910 4750
+NoConn ~ 8910 4650
+NoConn ~ 8910 4550
+NoConn ~ 8910 4450
+NoConn ~ 8910 4350
+NoConn ~ 8910 4250
+NoConn ~ 8910 4150
+NoConn ~ 8910 4050
+NoConn ~ 8910 3950
+NoConn ~ 8910 3850
+NoConn ~ 8910 3750
+NoConn ~ 8910 3250
+NoConn ~ 8910 3350
+NoConn ~ 8910 3450
+NoConn ~ 8910 3550
+NoConn ~ 8910 3650
+Text GLabel 8910 4850 0    51   Input ~ 0
+GNDD
+Text GLabel 8910 3150 0    51   Input ~ 0
+V5.0
+$Comp
+L CONN_01X18 P46
+U 1 1 59AF5CF2
+P 9660 4000
+F 0 "P46" H 9660 4950 50  0000 C CNN
+F 1 "P" V 9760 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 9660 4000 50  0001 C CNN
+F 3 "" H 9660 4000 50  0000 C CNN
+	1    9660 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9460 4750
+NoConn ~ 9460 4650
+NoConn ~ 9460 4550
+NoConn ~ 9460 4450
+NoConn ~ 9460 4350
+NoConn ~ 9460 4250
+NoConn ~ 9460 4150
+NoConn ~ 9460 4050
+NoConn ~ 9460 3950
+NoConn ~ 9460 3850
+NoConn ~ 9460 3750
+NoConn ~ 9460 3250
+NoConn ~ 9460 3350
+NoConn ~ 9460 3450
+NoConn ~ 9460 3550
+NoConn ~ 9460 3650
+Text GLabel 9460 4850 0    51   Input ~ 0
+GNDD
+Text GLabel 9460 3150 0    51   Input ~ 0
+V5.0
+$Comp
+L CONN_01X18 P49
+U 1 1 59AF5D0A
+P 10220 4000
+F 0 "P49" H 10220 4950 50  0000 C CNN
+F 1 "P" V 10320 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 10220 4000 50  0001 C CNN
+F 3 "" H 10220 4000 50  0000 C CNN
+	1    10220 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10020 4750
+NoConn ~ 10020 4650
+NoConn ~ 10020 4550
+NoConn ~ 10020 4450
+NoConn ~ 10020 4350
+NoConn ~ 10020 4250
+NoConn ~ 10020 4150
+NoConn ~ 10020 4050
+NoConn ~ 10020 3950
+NoConn ~ 10020 3850
+NoConn ~ 10020 3750
+NoConn ~ 10020 3250
+NoConn ~ 10020 3350
+NoConn ~ 10020 3450
+NoConn ~ 10020 3550
+NoConn ~ 10020 3650
+Text GLabel 10020 4850 0    51   Input ~ 0
+GNDD
+Text GLabel 10020 3150 0    51   Input ~ 0
+V5.0
+$Comp
+L CONN_01X18 P50
+U 1 1 59AF5D22
+P 10770 4000
+F 0 "P50" H 10770 4950 50  0000 C CNN
+F 1 "P" V 10870 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 10770 4000 50  0001 C CNN
+F 3 "" H 10770 4000 50  0000 C CNN
+	1    10770 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10570 4750
+NoConn ~ 10570 4650
+NoConn ~ 10570 4550
+NoConn ~ 10570 4450
+NoConn ~ 10570 4350
+NoConn ~ 10570 4250
+NoConn ~ 10570 4150
+NoConn ~ 10570 4050
+NoConn ~ 10570 3950
+NoConn ~ 10570 3850
+NoConn ~ 10570 3750
+NoConn ~ 10570 3250
+NoConn ~ 10570 3350
+NoConn ~ 10570 3450
+NoConn ~ 10570 3550
+NoConn ~ 10570 3650
+Text GLabel 10570 4850 0    51   Input ~ 0
+GNDD
+Text GLabel 10570 3150 0    51   Input ~ 0
+V5.0
+$EndSCHEMATC
